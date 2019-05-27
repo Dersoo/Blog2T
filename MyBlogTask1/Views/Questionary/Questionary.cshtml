@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Анкета";
+}
+
+<div>
+    <h3>Анкета</h3>
+    <form method="post">
+        <input type="hidden" name="Id" value="@ViewBag.Id" />
+        <table>
+            <tr>
+                <td><p>Имя:</p></td>
+                <td><input type="text" name="Name" /></td>
+            </tr>
+            <tr>
+                <td><p>Фамилия:</p></td>
+                <td><input type="text" name="Surname" /></td>
+            </tr>
+            <tr>
+                <td><p>Дата рождения:</p></td>
+                <td><input type="date" name="DateOfBirth" /></td>
+            </tr>
+            <tr>
+                <td><p>Адрес прописки:</p></td>
+                <td><input type="text" name="Address" /></td>
+            </tr>
+            @*<tr>
+            <td>Увлечения:</td>
+                <td>
+                    @Html.CheckBox("Hobbies", false)Рыбалка<br />
+                    @Html.CheckBox("Hobbies", false)Футбол<br />
+                    @Html.CheckBox("Hobbies", false)Компьтерные игры<br />
+                    @Html.CheckBox("Hobbies", false)Охота<br />
+                    @Html.CheckBox("Hobbies", false)Рисование<br />
+                    @Html.CheckBox("Hobbies", false)Пение<br />
+                    @Html.CheckBox("Hobbies", false)Блог
+                </td>
+            </tr>*@
+            <tr>
+                <td>Пол:</td>
+                <td>
+                    @Html.RadioButton("Gender", "Мужской")Мужской<br/>
+                    @Html.RadioButton("Gender", "Женский")Женский
+                </td>
+            </tr>
+
+            <tr><td><input type="submit" value="Оставить" /></td><td></td></tr>
+        </table>
+    </form>
+</div>

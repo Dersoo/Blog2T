@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Добавить статью";
+}
+
+<h3>Добавление статьи</h3>
+
+<form method="post">
+    <input type="hidden" name="Rid" value="@ViewBag.Aid" />
+    <table>
+        <tr>
+            <td><p>Тема статьи:</p></td>
+            <td><input type="text" name="Aname" /></td>
+        </tr>
+        <tr>
+            <td><p>Статья:</p></td>
+            <td>
+                <input type="text" name="Atext" />
+            </td>
+        </tr>
+        <tr><td><input type="submit" value="Добавить" /></td><td></td></tr>
+    </table>
+</form>

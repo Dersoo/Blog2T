@@ -1,0 +1,12 @@
+C:\Users\Good2\source\repos\Blog2\DBManipulator\obj\Debug\DBManipulator.csprojAssemblyReference.cache
+C:\Users\Good2\source\repos\Blog2\DBManipulator\obj\Debug\DBManipulator.csproj.CoreCompileInputs.cache
+C:\Users\Good2\source\repos\Blog2\DBManipulator\bin\Debug\DBManipulator.dll.config
+C:\Users\Good2\source\repos\Blog2\DBManipulator\bin\Debug\DBManipulator.dll
+C:\Users\Good2\source\repos\Blog2\DBManipulator\bin\Debug\DBManipulator.pdb
+C:\Users\Good2\source\repos\Blog2\DBManipulator\bin\Debug\EntityFramework.dll
+C:\Users\Good2\source\repos\Blog2\DBManipulator\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Good2\source\repos\Blog2\DBManipulator\bin\Debug\EntityFramework.xml
+C:\Users\Good2\source\repos\Blog2\DBManipulator\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Good2\source\repos\Blog2\DBManipulator\obj\Debug\DBManipulator.csproj.CopyComplete
+C:\Users\Good2\source\repos\Blog2\DBManipulator\obj\Debug\DBManipulator.dll
+C:\Users\Good2\source\repos\Blog2\DBManipulator\obj\Debug\DBManipulator.pdb

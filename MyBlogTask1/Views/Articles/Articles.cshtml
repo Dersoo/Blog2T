@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Главная";
+}
+
+<div class="sidebar">
+    <h3>Статьи</h3> 
+    <ul class="menu">
+        <li>@Html.ActionLink("Добавить статью", "AddReview", "AddReview")</li>
+    </ul>
+    <table>
+        @foreach (var a in ViewBag.Articles)
+         {
+             <tr>
+                 <td><p>@a.Aname</p></td>
+                 <td><p>@a.Adate</p></td>
+                 <td><p>@a.Atext</p></td>
+                 <td><p><a href="/Articles/Articles">Подробнее</a></p></td>
+             </tr>
+         }
+    </table>
+</div>
